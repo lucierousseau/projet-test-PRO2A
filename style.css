@@ -1,0 +1,51 @@
+
+
+body {
+    margin:0px;
+    font-family:"Century Gothic";
+    
+}
+
+ul { 
+    margin:0px;
+    padding:;
+}
+
+  header a{
+      color:white;
+	  background-color:rgba(255,255,255,0.2); 
+      text-decoration: none;
+
+  }
+
+header {
+    padding-top: 0px;
+    padding-bottom: 15px;
+    background-color:grey;
+    font-family: "Century Gothic";
+    
+    
+}
+
+header li{
+   
+    display : inline-block ;
+    width: 32%;
+    Texte-align: center;
+    color:grey;
+    padding:0px;
+}
+
+
+footer {
+background-color: grey;
+}
+
+footer li{
+   
+    display : inline-block ;
+    width: 12%;
+    Texte-align: center;
+    color:grey;
+    padding:0px;
+}
