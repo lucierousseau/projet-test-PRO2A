@@ -36,7 +36,7 @@ margin-top: 7px;
     width:300px;
     height:300px;
     margin-bottom: 60px;
-    margin-top: 30px;
+    margin-top: 20px;
     border-radius: 50%;
 
 }
@@ -133,7 +133,7 @@ footer li{
 
 
 h5 {
-      max-width: 550px;
+    max-width: 550px;
     margin:auto;
     margin-top:10px;
     padding:20px;
@@ -143,6 +143,14 @@ h5 {
     color: #127169;
     font-family: "Century Gothic";
     font-size: 20px;
+}
+
+
+
+
+li{
+
+    list-style: square;
 }
 
 
