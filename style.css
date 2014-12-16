@@ -16,7 +16,7 @@ ul {
 main{
     max-width: 550px;
     margin:auto;
-    margin-top:90px;
+    margin-top:60px;
     padding:20px;
     margin-bottom: 100px;
 }
@@ -24,9 +24,9 @@ main{
 img { 
 display: block; 
 margin: auto; 
-border-radius: 50px;
-margin-bottom: 5px;
-margin-top: 5px;
+
+margin-bottom: 7px;
+margin-top: 7px;
 
 } 
 
@@ -45,21 +45,24 @@ margin-top: 5px;
 
 
 
-  header a{
+header a{
       color:white;
 	  background-color:rgba(255,255,255,0.2); 
       text-decoration: none;
+      font-size: 30px;
       border-radius: 15px;
-      padding:10px;
-      
-      
+      padding:10px;   
+     font-family: 'Abel', sans-serif;
+    letter-spacing: 4px;
   }
 
+
 header {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color:#179e93;
-    font-family: "Century Gothic";
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 4px;
 }
 
 
@@ -67,9 +70,25 @@ header li{
     display : inline-block ;
     width: 32%;
     text-align: center;
+    text-decoration: bold;
     color:white;
     padding:0px;
 }
+
+
+
+
+a{
+     color:#ccc;
+     text-shadow:0 1px 0 #179e93;                
+}
+a:hover,a:focus{
+     background:rgba(0,0,0,.2);
+     box-shadow:0 1px 0  #179e93 ;
+}
+
+
+
 
 h1{
     text-align: center;
@@ -77,33 +96,88 @@ h1{
     
 }
 
+h2{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Lily Script One', cursive;
+}
 
 
 
 
 
 footer {
-background-color:#179e93;
+    background-color:#179e93;
+    bottom: 0px;
+    position: relative;
+    margin-top: 300px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+      
 }
 
 footer li{
-   
     display : inline-block ;
-    width: 42%;
+    width: 47%;
     text-align: center;
-    color:grey;
-    padding:10px;
+    color:grey;   
+    
 }
 
 
 
 
+ 
 
 
 
 
+h5 {
+      max-width: 550px;
+    margin:auto;
+    margin-top:10px;
+    padding:20px;
+    margin-bottom: 10px;
+    line-height: 10px;
+    letter-spacing: 6px;
+    color: #127169;
+    font-family: "Century Gothic";
+    font-size: 20px;
+}
 
 
+
+.vieuxpape {    
+    display: block; 
+    margin: auto; 
+    width:210px;
+    height:210px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+    border-radius: 50%;
+}
+
+
+.diamprest {    
+    display: block; 
+    margin: auto; 
+    width:400px;
+    height:400px;
+    margin-bottom: 0px;
+    margin-top: 80px;
+    border-radius: 50%;
+}
+
+
+.bg{
+     display: block; 
+    margin: auto; 
+    width:170px;
+    height:170px;
+    margin-bottom: 0px;
+    margin-top: 140px;
+
+}
 
 
 
@@ -123,7 +197,7 @@ h3 {
     line-height: 10px;
     letter-spacing: 6px;
     color: #127169;
-
+   
 }
 
 
@@ -137,7 +211,21 @@ div {
     border-color: #179e93;
     border-radius: 15px;
     line-height: 30px;
+    font-family: "Century Gothic";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -152,12 +240,14 @@ h4{
     color: #179e93;
     font-size: 70px;
     margin-top: 10px;
+    text-align: center;
+    text-decoration: inherit;
 }
 
 p{
     
     color: #179e93;
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 10px;
     text-align: center;
 }
@@ -169,9 +259,10 @@ p{
     margin: auto; 
     width:100px;
     height:100px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     margin-top: 30px;
     border-radius: 50%;
+   
 }
 
 
@@ -182,9 +273,10 @@ p{
     margin: auto; 
     width:100px;
     height:100px;
-    margin-bottom: 60px;
-    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-top: 80px;
     border-radius: 50%;
+   
 }
 
 
